@@ -1,0 +1,11 @@
+CREATE DATABASE IF NOT EXISTS registerstore;
+
+USE registerstore;
+
+CREATE TABLE users(
+	name VARCHAR(255),
+	email VARCHAR(255),
+	phone VARCHAR(10),
+	address VARCHAR(255),
+	password VARCHAR(255)
+);
